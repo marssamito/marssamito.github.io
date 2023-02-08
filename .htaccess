@@ -1,0 +1,4 @@
+# Redirect "robots.txt" from HTTP to HTTPS for the two subdomains
+RewriteCond %{HTTPS} =off
+RewriteCond %{HTTP_HOST} ^(ekb|spb)\.example\.com 
+RewriteRule ^robots\.txt$ https://%{HTTP_HOST}/$0 [R=301,L]
