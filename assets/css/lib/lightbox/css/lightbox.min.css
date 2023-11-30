@@ -108,6 +108,7 @@ html.lb-disable-scrolling {
   background: url(../images/prev.png) left 48% no-repeat;
   filter: alpha(Opacity=0);
   opacity: 0;
+  -webkit-transition: opacity .6s;
   -moz-transition: opacity .6s;
   -o-transition: opacity .6s;
   transition: opacity .6s;
@@ -125,6 +126,7 @@ html.lb-disable-scrolling {
   background: url(../images/next.png) right 48% no-repeat;
   filter: alpha(Opacity=0);
   opacity: 0;
+  -webkit-transition: opacity .6s;
   -moz-transition: opacity .6s;
   -o-transition: opacity .6s;
   transition: opacity .6s;
@@ -187,6 +189,7 @@ html.lb-disable-scrolling {
   outline: 0;
   filter: alpha(Opacity=70);
   opacity: .7;
+  -webkit-transition: opacity .2s;
   -moz-transition: opacity .2s;
   -o-transition: opacity .2s;
   transition: opacity .2s;
